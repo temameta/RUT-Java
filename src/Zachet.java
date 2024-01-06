@@ -16,6 +16,10 @@ public class Zachet {
         boolean done = false;
         while (!done) {
             String inputCombination = scanner.nextLine();
+            if (inputCombination.matches("[WASDwasd]+")) {
+                System.out.println("Неверная комбинация");
+                break;
+            }
             char[] combination = new char[inputCombination.length()];
             int[] currentPos = {0, 2, 0};
             for (int i = 0; i < inputCombination.length(); i++) {
@@ -46,6 +50,10 @@ public class Zachet {
                         },
                 };
                 int[] nextPos = press(combination[i], currentPos);
+                if (nextPos.length == 0) {
+                    System.out.println("Неверная комбинация");
+                    break;
+                }
                 try {
                     char trych = flat[nextPos[0]][nextPos[1]][nextPos[2]];
                 } catch (ArrayIndexOutOfBoundsException e) {
