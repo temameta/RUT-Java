@@ -4,8 +4,8 @@ public class BankAccount {
     private final static double DEFAULT_INTEREST_RATE = 0.02;
     private static double interestRate = DEFAULT_INTEREST_RATE;
     private static int bankAccountCount = 1;
-    private int id;
-    private  double balance;
+    private int id = 0;
+    private  double balance = 0;
     public BankAccount() {
         this.id = bankAccountCount++;
     }

@@ -28,18 +28,18 @@ public class Zachet {
             for (int i = 0; i < combination.length; i++) {
                 char[][][] flat = {
                         {
-                                {O, O, O, O, O, O},
-                                {O, B, O, O, L, O},
-                                {O, O, O, O, O, O},
-                                {O, O, B, O, O, O},
-                                {O, O, O, O, O, O}
+                                {O, O, O, O, B, P},
+                                {O, B, O, O, B, O},
+                                {O, O, O, O, B, L},
+                                {O, O, B, O, B, O},
+                                {O, O, O, O, B, O}
                         },
                         {
-                                {O, O, O, O, O, O},
+                                {O, O, B, O, O, O},
                                 {O, O, B, O, O, O},
                                 {L, O, B, O, O, O},
                                 {B, O, B, O, O, O},
-                                {O, O, O, O, O, O}
+                                {O, O, B, O, O, O}
                         },
                         {
                                 {O, O, O, O, O, F},
