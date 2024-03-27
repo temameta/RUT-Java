@@ -6,3 +6,4 @@ laba 4 - 3 var
 laba 5 - 7 var 
 laba 6 - 10 var 
 laba 7 - 8 var
+laba 9 - 3 var
