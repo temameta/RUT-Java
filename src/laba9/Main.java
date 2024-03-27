@@ -29,7 +29,7 @@ public class Main {
         } catch (NumberFormatException e) {
             System.out.println("Number Error");
         } catch (IllegalArgumentException e) {
-            System.out.println(e.fillInStackTrace());
+            e.printStackTrace();
         }
 
     }
